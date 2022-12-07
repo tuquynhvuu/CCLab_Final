@@ -1,0 +1,56 @@
+html{
+        background-color: #2F2168;
+        background-image: url("images/drawing.jpg");
+        background-repeat: no-repeat;
+        background-attachment: scroll; 
+        background-position:  top center;
+        /* background-size: cover; */
+        background-size: auto; 
+        /* overflow-y: hidden; */
+
+}
+
+body {
+    align-content: center;
+    /* background-color: #2F2168; */
+    margin-top: 150px;
+  }
+
+  
+  canvas {
+    display: block;
+  }
+  
+  .canvasDiv{
+    display: flex;
+    justify-content: center;
+    /* background-color: aquamarine; */
+  }
+  
+  /* .header{
+    justify-content: center;
+    margin-top: -140px;
+    margin-bottom: 20px; 
+    height: 140px; 
+    text-align: center; 
+    /* background-color: blueviolet;  */
+    /* color: paleturquoise;  */
+  /* }  */ */
+  
+  h1{
+    font-family: monospace;
+    font-size: 80px;
+    font-style: italic;
+    letter-spacing: 3px;
+    text-shadow: 4px 4px #2F2168;
+    text-align: center;
+  }
+  
+  .space{
+    margin-bottom: 600px; 
+  } 
+
+  p{
+    color: transparent;
+  }
+
