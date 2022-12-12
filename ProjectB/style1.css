@@ -1,56 +1,147 @@
 html{
         background-color: #2F2168;
         background-image: url("images/drawing.jpg");
+        /* source: http://lightgreyartlab.com/great-personality-environments */
         background-repeat: no-repeat;
         background-attachment: scroll; 
         background-position:  top center;
-        /* background-size: cover; */
         background-size: auto; 
-        /* overflow-y: hidden; */
-
+        overflow-y: hidden;
 }
 
-body {
-    align-content: center;
-    /* background-color: #2F2168; */
-    margin-top: 150px;
-  }
-
-  
-  canvas {
+canvas {
     display: block;
-  }
+}
   
-  .canvasDiv{
+.canvasDiv{
     display: flex;
     justify-content: center;
-    /* background-color: aquamarine; */
-  }
+}
   
-  /* .header{
+  
+h1{
     justify-content: center;
-    margin-top: -140px;
-    margin-bottom: 20px; 
-    height: 140px; 
-    text-align: center; 
-    /* background-color: blueviolet;  */
-    /* color: paleturquoise;  */
-  /* }  */ */
-  
-  h1{
-    font-family: monospace;
-    font-size: 80px;
-    font-style: italic;
-    letter-spacing: 3px;
-    text-shadow: 4px 4px #2F2168;
     text-align: center;
+    color: #4E3A9F;
+    text-shadow: 3px 3px #70e0d9;
+    font-family: monospace;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+}
+  
+.space{
+    margin-bottom: 600px; 
+} 
+
+p{
+    justify-content: center;
+    text-align: center;
+    color: #4E3A9F;
+    text-shadow: 1px 1px #70e0d9;
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.p1{
+    justify-content: center;
+    text-align: center;
+    color: #4E3A9F;
+    text-shadow: 1px 1px #d0fffc;
+    font-family: monospace;
+    font-size: 14px;
+}
+
+.sage{
+    justify-content: center;
+    text-align: center;
+    color: #13866f;
+    text-shadow: 1px 1px #c3fffb;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+.lav{
+    justify-content: center;
+    text-align: center;
+    color: #74309e;
+    text-shadow: 1px 1px #f2e4ff;
+    font-family: monospace;
+    font-size: 19px;
+}
+
+
+.column {
+    float: left;
+    padding: 10px;
   }
   
-  .space{
-    margin-bottom: 600px; 
-  } 
+.column.left {
+    margin-top: 0px;
+    margin-left: 5px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    width: 13.5%;
+    color: #ffe0ea;
+    background-color: rgb(255, 192, 211);
+    opacity: 0.92;
+    justify-content: center;
+    text-align: center;
+    border-style: groove;
+    border-width: 10px;
+    border-color: #4E3A9F #70e0d9;
+}
+  
+.column.middle {
+    margin-left: 125px;
+    margin-top: 105px;
+    width: 50%;
+    justify-content: center;
+}
+  
+.column.right {
+    float: right;
+    margin-top: 0px;
+    margin-left: 10px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    width: 13.5%;
+    color: #ffe0ea;
+    background-color: rgb(255, 192, 211);
+    opacity: 0.92;
+    justify-content: center;
+    text-align: center;
+    border-style: groove;
+    border-width: 10px;
+    border-color: #4E3A9F #70e0d9;
 
-  p{
-    color: transparent;
-  }
+}
+  
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
 
+a.link1{
+  justify-content: center;
+  text-align: center;
+  color: #4E3A9F;
+  text-shadow: 3px 3px #70e0d9;
+  font-family: monospace;
+  font-size: 30px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.email{
+  justify-content: center;
+  text-align: center;
+  color: #4E3A9F;
+  text-shadow: 2px 2px #70e0d9;
+  font-family: monospace;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
+}

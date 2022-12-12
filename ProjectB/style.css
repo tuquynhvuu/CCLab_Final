@@ -1,8 +1,10 @@
 .header{
-  padding: 35px;
+  padding: 25px;
   text-align: center;
+  text-shadow: 5px 5px #ff75bc;
   background-color: #4E3A9F;
-  color: paleturquoise;
+  opacity: 0.9;
+  color: rgb(204, 255, 255);
 }
 
 h1{
@@ -11,23 +13,106 @@ h1{
   text-align: center;
 }
 
-.box{
+/* .box{
   margin-top: 50px;
   margin-left: 520px;
   margin-right: 520px;
   padding: 30px;
-  background-color: #B06ED1;
-  justify-content: center;
-}
+} */
 
-a{
+a.link2{
   justify-content: center;
-  text-align: right;
+  text-align: center;
+  color: #ffe0ea;
+  text-shadow: 4px 4px #ff6bba;
   font-family: monospace;
-  font-size: 50px;
+  font-size: 70px;
   font-weight: bold;
   font-style: italic;
 }
 
+.column {
+  float: left;
+  padding: 10px;
+}
 
+.column.left {
+  margin-top: 20px;
+  padding-top: 50px;
+  padding-bottom: 120px;
+  width: 20%;
+  color: #ffe0ea;
+  background-color: rgb(123, 219, 210);
+  opacity: 0.92;
+  justify-content: center;
+  text-align: center;
+}
 
+.column.middle {
+  margin-left: 15px;
+  margin-top: 20px;
+  padding: 40px;
+  padding-top: 50px;
+  width: 50%;
+  background-color: #B06ED1;
+  opacity: 0.95;
+  justify-content: center;
+  text-align: center;
+}
+
+.column.right {
+  float: right;
+  margin-top: 20px;
+  padding-top: 50px;
+  padding-bottom: 120px;
+  width: 20%;
+  color: #ffe0ea;
+  background-color: rgb(123, 219, 210);
+  opacity: 0.92;
+  justify-content: center;
+  text-align: center;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+h2{
+  color: #4E3A9F;
+  font-family: monospace;
+  font-size: 50px;
+  font-weight: bold;
+  text-shadow: 3px 3px #ffd8e4;
+}
+
+p{
+  font-family: monospace;
+  font-size: 30px;
+  color: #ffe0ea;
+  text-shadow: 2px 2px #ff9aba;
+  text-align: center;
+}
+
+a.link1{
+  justify-content: center;
+  text-align: center;
+  color: #4E3A9F;
+  text-shadow: 3px 3px #ffd8e4;
+  font-family: monospace;
+  font-size: 30px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+a.link3{
+  justify-content: center;
+  text-align: center;
+  color: #4E3A9F;
+  text-shadow: 3px 3px #ffd8e4;
+  font-family: monospace;
+  font-size: 30px;
+  font-weight: bold;
+  font-style: italic;
+}
